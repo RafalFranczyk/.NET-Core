@@ -18,7 +18,7 @@
     },
     "Server": {
       "commandName": "Project",
-      "launchUrl": "swagger",
+      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

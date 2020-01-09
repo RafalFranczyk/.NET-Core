@@ -41,9 +41,9 @@ namespace Server.Controllers
         /// <returns>A newly created TodoItem</returns>
         /// <response code="200">Success status response code</response>
         /// <response code="201">Returns the newly created item</response>
-        ///<response code="204">Returns without data</response>
+        /// <response code="204">Returns without data</response>
         /// <response code="400">If the item is null</response> 
-        /// <response code="404" schema="ErrorDto" >If the item not found</response> 
+        /// <response code="404">If the item not found</response> 
         [HttpGet]
         [Produces("application/json")]
         [ProducesResponseType(typeof(IEnumerable<ExampleResponseDto>), StatusCodes.Status200OK)]

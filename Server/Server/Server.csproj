@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Server.xml</DocumentationFile>
-    <OutputPath>bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1</OutputPath>
+    <DocumentationFile>bin\Debug\netcoreapp3.1\Server.xml</DocumentationFile>
+    <OutputPath>bin\Debug\netcoreapp3.1</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
